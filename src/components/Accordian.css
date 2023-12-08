@@ -1,0 +1,33 @@
+.accordian{
+list-style: none;
+position: relative;
+}
+.accordian li{
+    margin-bottom: 12px;
+  position: relative;
+  padding-left: 25px;
+  
+}
+
+.acco-box{
+    width: 80%;margin: auto;
+}
+
+.accordian li .plus{
+    position: absolute;
+    left: 0px;
+    top: 5px;
+    color: #25CB9E;
+   
+}
+
+.main_box .accordian li:nth-child(1),.main_box .accordian li:nth-child(2),.main_box .accordian li:nth-child(3),.main_box .accordian li:nth-child(5){
+    font-weight: 500;
+    border-bottom: 1px solid rgb(226, 226, 236);
+    padding-bottom: 20px;
+}
+
+.main_box .accordian li:nth-child(4){
+    font-size: 15px;
+    line-height: 28px;
+}

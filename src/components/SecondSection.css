@@ -1,0 +1,197 @@
+.section h5:nth-child(1){
+color: #EF9E48;
+line-height: 40px;
+letter-spacing: 3px;
+font-size: 14px;
+}
+
+
+.section h2{
+    color: #0F2137;
+    font-size: 36px;
+    line-height: 55px;
+    font-weight: 700;
+}
+
+
+.poeple_post .card-body img{
+    width: 100%;
+    border-radius: 0px;
+    
+}
+.card-body{
+    box-shadow: #02073E;
+}
+
+.card-body .symbol{
+    position: relative;
+}
+
+.card-body .symbol img{
+    position: absolute;
+    bottom: 45px;
+    width: 55px;
+    left: 80px;
+}
+ 
+.card-body .symbol .play-icon{
+    position: absolute;
+    bottom: 60px;
+    left: 99px;
+    font-size: 25px;
+    color: white;
+}
+
+.eye-content >.eye-icon{
+    color: rgb(127, 124, 124);
+
+}
+
+.eye-content span{
+    padding: 5px;
+}
+
+
+.eye-content span:nth-child(2){
+    font-size: 13px;
+
+}
+.rating_info >svg{
+    
+    padding: 2px;
+}
+.rating-information >span{
+    color: rgb(108, 106, 106);
+    font-size: 13px;
+    padding: 2px;
+}
+
+.card-body .card-text{
+ font-weight: 700;
+ 
+}
+
+
+
+.like_share_count_section .box_with_like{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    width: 180px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5em;
+    
+}
+
+.like_share_count_section .box-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+    row-gap: 30px ;
+}
+.box-content div:nth-child(2){
+    position: relative;
+    bottom: 35px;
+   
+}
+
+.box-content div:nth-child(4){
+    position: relative;
+    bottom: 35px;
+   
+}
+
+.box-content .like-color1>div>h3{
+    color: #EF9E48;
+    font-size: 35px;
+}
+
+.box-content .like-color2>div>h3{
+    color: #FF753A;
+    font-size: 35px;
+}
+.box-content .like-color3>div>h3{
+    color: #FA578E;
+    font-size: 35px;
+}
+.box-content .like-color4>div>h3{
+    color: #E682FF;
+    font-size: 35px;
+}
+/* .box-content {
+    position: relative;
+    left: 90px;
+} */
+
+
+.box-content p{
+    font-size: 12px;
+}
+
+.btn1{
+position: relative;
+right: 17px;
+}
+
+.row .intro-text{
+    line-height: 30px;
+    color: #02073E;
+    font-size: 15px;
+}
+
+.like_share_count_section .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-success{
+    background-color: #3FDBB1;
+    border: none;
+    font-size: 14px;
+}
+
+.check_content{
+  
+   display: flex;
+   flex-wrap: wrap;
+   align-items: flex-start;
+   justify-content: space-evenly;
+   
+}
+
+.circle{
+    position: relative;
+}
+.circle>img{
+    background-color: #EF9E48;
+}
+.circle-icon{
+    color: #EF9E48;
+    position: relative;
+    right: 35px;
+    font-size: 25px;
+}
+
+
+ 
+.poeple_post .card {
+    max-width: 1020px;
+    margin: 0 auto 10px;
+    padding: 10px 35px;
+}
+.opacity0{opacity:0;}
+
+
+.content-box p{
+    font-size: 14px;
+}
+
+.box-font h4{
+   font-size: 20px; 
+}
+
+.box-font p{
+    font-size: 13px;
+}
+

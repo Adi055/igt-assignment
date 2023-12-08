@@ -1,0 +1,120 @@
+.main-section{
+    background-color: #F7FDFF;
+}
+
+.function_content{
+    display: flex;
+    justify-content: space-evenly;
+   grid-template-columns: repeat(4,fr);
+   width: 95%;
+   margin: auto;
+   margin-top: 80px;
+  padding-bottom: 50px;
+}
+
+.round-circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.box_with_info{
+    position: relative;
+}
+
+
+.box_with_info p ,h6{
+text-align: left;
+font-size: 14px;
+}
+
+.arrow-img{
+    position: absolute;
+    left: 60px;
+   bottom: 140px;
+}
+
+.plan{
+    text-align:center;
+}
+.plan_tabs{
+    list-style:none;
+    margin:0px auto;
+    background-color: #F7F8FB;
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    max-width:250px;
+}
+.plan-tab-item{width:50%;text-align:center;padding:8px;cursor: pointer;}
+.plan-tab-item.active{background-color:#ffffff;box-shadow: 0px 3px 3.799999952316284px 0px #264E761A;
+}
+.price-btn{
+    color: white;
+    background-color: #EF9E48;
+}
+
+.price_details .button1{
+    background-color: #FCF2E8;
+    border:none;
+   color: #EF9E48;
+}
+
+.price_details .button2{
+    background-color: #FCF2E8;
+    border:none;
+   color: #EF9E48;
+}
+.price_details .card{padding:15px 25px;height:100%;}
+.pricing_detail{
+    display: flex;
+  justify-content: space-between;
+}
+
+
+
+.card-2{
+   border: 2px solid #3FDBB1;
+
+}
+.pricing_detail h3{
+    color: #25CB9E;
+}
+
+.course-info{
+    position: relative;
+}
+.plan_info_section{
+    max-width:900px;
+    margin:0 auto;
+}
+.plan_features_list{
+    margin:0px;
+    padding: 0px;
+    list-style: none;
+    min-height:340px;
+}
+.plan_features_list li{
+    position: relative;
+    margin-bottom:15px;
+    padding-left: 30px;
+}
+.plan_features_list li .check-icon{
+    position: absolute;
+    left: 0px;top:6px;
+    color: #25CB9E;
+}
+.plan_features_list li .cross{
+    position: absolute;
+    left: 0px;
+    top:6px;
+}
+
+.plan_name_info{
+    min-height:115px;
+}
